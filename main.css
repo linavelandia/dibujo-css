@@ -1,0 +1,115 @@
+:root {
+    --skin: #f6c09c;
+  --background: #ed4042;
+  --red: #ed2860;
+  --dark-red: #680524;
+  --black: #00243a;
+  --white: #fff;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.head {
+    width: 100px;
+    height: 200px;
+    background: var(--skin);
+    border-radius: 50px;
+    position: relative;
+}
+.eye-left {
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 70px;
+    border-radius: 0 0 80px 80px;
+    left: 30px;
+}
+.eye-right {
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 70px;
+    border-radius: 0 0 80px 80px;
+    left: 50px;
+}
+.eye-left-point {
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+    position: absolute;
+    left: 38px;
+    top: 77px;
+}
+.eye-right-point {
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+    position: absolute;
+    left: 57px;
+    top: 77px;
+}
+.beard {
+    width: 100px;
+    height: 100px;
+    background: var(--black);
+    position: absolute;
+    top: 100px;
+    border-radius: 30px;
+
+}
+.mouth {
+    width: 50px;
+    height: 20px;
+    background: var(--background);
+    position: absolute;
+    top: 130px;
+    left: 25px;
+    border-radius:  0 0 15px 15px ;
+}
+.tie {
+    width: 25px;
+    height: 8px;
+    background: var(--white);
+    position: absolute;
+    top: 130px;
+    left: 25px;
+}
+.bottom {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: var(--skin);
+    position: absolute;
+    top: 89px;
+    left: 36px;
+    border-color: none;
+}
+.ear-left {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px 20px 20px 20px;
+    background: var(--skin);
+    position: absolute;
+    top: 90px;
+    right: 96px;
+}
+.ear-right {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px 20px 20px 20px;
+    background: var(--skin);
+    position: absolute;
+    top: 90px;
+    left: 96px;
+    
+}
